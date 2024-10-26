@@ -57,11 +57,11 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.section-one .link {
+.section-one .a {
     color: #2e2f42;
 }
-.section-one .link:hover, 
-.section-one .link:focus {
+.section-one .a:hover, 
+.section-one .a:focus {
     color: #404bbf;
 }
 .nav-contacts {
@@ -78,8 +78,9 @@ body {
 .contacts-1 {
     color: #434455;
 }
-.contacts-1 .link:hover,
-.contacts-1 .link:focus { color: #404bbf}
+.contacts-1 .a:hover,
+.contacts-1 .a:focus { color: #404bbf;
+}
 .main-section {
     background-color: #2e2f42;}
     .main-section-name {
@@ -124,7 +125,7 @@ body {
         color: #434455;
 }
 .team {
-    background-color: #F4F4FD
+    background-color: #FFFFFF;
 }
 .team-h {
     font-family: "Roboto", sans-serif;
@@ -140,6 +141,9 @@ body {
 }
 .team-list {
             background: #FFFFFF;
+}
+.team.item {
+    background-color: #FFFFFF;
 }
 .team-image {
         background: url("path_to_image");
