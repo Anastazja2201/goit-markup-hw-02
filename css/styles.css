@@ -19,7 +19,6 @@ body {
             /* line-height: 24px; */
             line-height: 150%;
             letter-spacing: 0.02em;
-            color: #2e2f42;
  }
  .logo-one {
     font-family: "Raleway", sans-serif;
@@ -30,10 +29,10 @@ body {
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color: #2e2f42;
  }
- .logo-one .a:hover,
- .logo-one .a:focus {
+ .logo-one .link:hover,
+ .logo-one .link:focus {
      color: #404bbf;
  }
  .logo-item {
@@ -75,12 +74,12 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.contacts-files {
+.mail-send {
         color: #434455;
     }
 
-.contacts-files .link:hover,
-.contacts-files .link:focus { color: #404bbf;
+.mail-send .link:hover,
+.mail-send .link:focus { color: #404bbf;
 }
 .main-section {
     background-color: #2e2f42;}
@@ -141,10 +140,10 @@ body {
         text-transform: capitalize;
 }
 .team-list {
-            background-color: #FFFFFF;
+            background-color: #F4F4FD;
 }
 .team.item {
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 .team-image {
         background: url("path_to_image");
