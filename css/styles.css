@@ -29,12 +29,16 @@ body {
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: #4d5ae5;
+ }
+.logo-one {
         color: #2e2f42;
- }
- .logo-one .link:hover,
- .logo-one .link:focus {
-     color: #404bbf;
- }
+    }
+
+    .logo-one .link:hover,
+    .logo-one .link:focus {
+        color: #404bbf;
+    }
  .logo-item {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
