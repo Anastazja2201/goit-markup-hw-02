@@ -31,10 +31,6 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
  }
-.logo-one {
-        color: #2e2f42;
-    }
-
     .logo-one .link:hover,
     .logo-one .link:focus {
         color: #404bbf;
@@ -60,10 +56,14 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.main-nav a { color: #2e2f42;
+.main-page .link:hover,
+.main-page .link:focus{
+    color: #404bbf;
+}
+.main-nav { color: #2e2f42;
 }
 .main-nav:hover, .main-nav:focus 
-a {color: #404bbf;
+{color: #404bbf;
 }
 .nav-contacts {
     font-family: "Roboto", sans-serif;
@@ -77,11 +77,11 @@ a {color: #404bbf;
         color: #434455;
 }
 .mail-send 
-a {color: #434455;
+{color: #434455;
     }
 
-.mail-send:hover, .mail-send:focus 
-a { color: #404bbf;
+.mail-send .link:hover, .mail-send .link:focus 
+{ color: #404bbf;
 }
 .main-section {
     background-color: #2e2f42;}
@@ -141,11 +141,9 @@ a { color: #404bbf;
         color: #2e2f42;
         text-transform: capitalize;
 }
-.team-list {
-            background-color: #F4F4FD;
-}
+
 .team.item {
-    background-color: #FFF;
+    background-color: #FFFFFF;
 }
 .team-image {
         background: url("path_to_image");
