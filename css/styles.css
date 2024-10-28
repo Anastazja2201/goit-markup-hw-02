@@ -56,14 +56,11 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.main-page .link:hover,
-.main-page .link:focus{
+.main-nav .link:hover,
+.main-nav .link:focus {
     color: #404bbf;
 }
-.main-nav { color: #2e2f42;
-}
-.main-nav:hover, .main-nav:focus 
-{color: #404bbf;
+.main-nav .link { color: #2e2f42;
 }
 .nav-contacts {
     font-family: "Roboto", sans-serif;
@@ -76,11 +73,12 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.mail-send 
+.mail-send .link
 {color: #434455;
     }
 
-.mail-send .link:hover, .mail-send .link:focus 
+.mail-send .link:hover, 
+.mail-send .link:focus 
 { color: #404bbf;
 }
 .main-section {
@@ -142,7 +140,7 @@ body {
         text-transform: capitalize;
 }
 
-.team.item {
+.team.list {
  background-color: #FFFFFF;
 }
 .team-name {
