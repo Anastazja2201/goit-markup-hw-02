@@ -143,10 +143,7 @@ body {
 }
 
 .team.item {
-    background-color: #FFFFFF;
-}
-.team-image {
-        background: url("path_to_image");
+ background-color: #FFFFFF;
 }
 .team-name {
     font-family: "Roboto", sans-serif;
