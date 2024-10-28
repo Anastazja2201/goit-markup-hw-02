@@ -56,12 +56,15 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.main-nav:hover,
-.main-nav:focus {
-    color: #404bbf;
+.main-page {
+    color: #2e2f42;
 }
-.main-nav { color: #2e2f42;
+
+.main-page:hover,
+.main-page:focus {
+    color: #404bbf; 
 }
+
 
 .nav-contacts {
     font-family: "Roboto", sans-serif;
