@@ -5,19 +5,18 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
- .text> a {
+a {
      text-decoration: none;
  }
- .link {
-     text-decoration: none;
+ul {
+     list-style: none;
  }
  .section-1 {
-        font-family: "Roboto", sans-serif;
             font-weight: 500;
             font-size: 16px;
         
             /* line-height: 24px; */
-            line-height: 150%;
+            line-height: 1.5;
             letter-spacing: 0.02em;
  }
  .logo-one {
@@ -26,7 +25,7 @@ body {
         font-size: 18px;
     
         /* line-height: 21px; */
-        line-height: 117%;
+        line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -41,18 +40,17 @@ body {
         font-size: 18px;
     
         /* line-height: 21px; */
-        line-height: 117%;
+        line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
  }
 .section-one {
-    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
     
         /* line-height: 24px; */
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -67,13 +65,12 @@ body {
 
 
 .nav-contacts {
-    font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         font-style: normal;
     
         /* line-height: 24px; */
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -88,16 +85,16 @@ body {
 .main-section {
     background-color: #2e2f42;}
     .main-section-name {
-        font-family: "Roboto", sans-serif;
         font-size: 56px;
         
             /* line-height: 60px; */
-            line-height: 107%;
+            line-height: 1.07143;
             letter-spacing: 0.02em;
             text-align: center;
             color: #fff;
 }
 .button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -110,7 +107,6 @@ body {
     background-color: #404BBF; }
 
 .opportunities-h {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -121,10 +117,8 @@ body {
         color: #2e2f42;
 }
 .opportunities-text {
-    font-family: "Roboto", sans-serif;
-    
         /* line-height: 24px; */
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -132,12 +126,11 @@ body {
     background-color: #F4F4FD;
 }
 .team-h {
-    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
     
         /* line-height: 40px; */
-        line-height: 111%;
+        line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -148,34 +141,31 @@ body {
  background-color: #FFFFFF;
 }
 .team-name {
-    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
     
         /* line-height: 24px; */
-        line-height: 120%;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
 }
 .team-position {
-    font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
     
         /* line-height: 24px; */
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455; }
 .portfolio-h {
-    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
         text-transform: capitalize;
     
         /* line-height: 40px; */
-        line-height: 111%;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -184,12 +174,11 @@ body {
         background: #fff;
 }
 .portfolio-name {
-    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
     
         /* line-height: 24px; */
-        line-height: 120%;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -197,7 +186,7 @@ body {
         font-size: 16px;
     
         /* line-height: 24px; */
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -205,12 +194,11 @@ body {
         background: url("path_to_image");
 }
 .last-name {
-    font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
     
         /* line-height: 24px; */
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
@@ -220,7 +208,7 @@ body {
      font-size: 18px;
 
      /* line-height: 21px; */
-     line-height: 117%;
+     line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
@@ -232,7 +220,7 @@ body {
      font-size: 18px;
 
      /* line-height: 21px; */
-     line-height: 117%;
+     line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
     color: #f4f4fd;
